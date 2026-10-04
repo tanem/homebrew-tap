@@ -1,24 +1,24 @@
 class StickHistory < Formula
   desc "Print the tracklist of a set from the History a Pioneer DJ player wrote to a USB stick"
   homepage "https://github.com/tanem/stick-history"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tanem/stick-history/releases/download/v0.1.0/stick-history_0.1.0_darwin_arm64.tar.gz"
-      sha256 "c5cb80455354517b26f280ff66430ee7f07d9677c5817f8118f85265651af2da"
+      url "https://github.com/tanem/stick-history/releases/download/v0.2.0/stick-history_0.2.0_darwin_arm64.tar.gz"
+      sha256 "90e460e68741475f2ee5e6b0682781060be3dfaaf19d9d78ea670b603e937fb4"
     end
     on_intel do
-      url "https://github.com/tanem/stick-history/releases/download/v0.1.0/stick-history_0.1.0_darwin_amd64.tar.gz"
-      sha256 "5c1a13eb17b79ebdea5dd3bbb91c4591358c2c067d28d977adc7c22ac45db627"
+      url "https://github.com/tanem/stick-history/releases/download/v0.2.0/stick-history_0.2.0_darwin_amd64.tar.gz"
+      sha256 "45355ddf2c853143ca077d96ca81a7247c02b3a77b78ee5b3c7cd40e9cb6536c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tanem/stick-history/releases/download/v0.1.0/stick-history_0.1.0_linux_amd64.tar.gz"
-      sha256 "ff5b0bf1f23f8d1d93b0d10dd4f7c4770a2cc0e2b51bef5707341cb3d41d2c72"
+      url "https://github.com/tanem/stick-history/releases/download/v0.2.0/stick-history_0.2.0_linux_amd64.tar.gz"
+      sha256 "a4f1d8618b57b7fa4fcdf5765fcfd9969165d80ab2defc77381cb12bb68e3d2f"
     end
   end
 
